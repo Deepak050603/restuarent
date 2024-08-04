@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#house{
+    color:  rgb(190, 71, 28);
+}
+#sh4{
+    color:  rgb(190, 71, 28);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 71, 28);
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    margin-right: -300px;
+    
+    
+}
+#logo{
+    border-radius: 50%;
+    width: 100px;
+    margin-left: -400px;
+}
+nav li{
+list-style: none;
+margin: 0 10px ;
+font-size: 20px;
+font-weight: 400;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+#home{
+/* height: 100vh;  */
+width: 100%;
+background-image: url('./images/home4.jpg');
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+ #para{
+    color: white;
+    padding-left: 5%;
+    padding-top: 12%;
+    height: 76vh;
+    background-color: rgba(0, 0, 0, 0.315);
+
+    
+   
+} 
+#para h1{
+    font-size: 100px;
+
+    
+}
+#para h4{
+    font-size: 30px;
+
+}
+#subh{
+    width: 100%;
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#subh a{
+    text-decoration: none;
+    color: black;
+}
+#subh a:hover{
+    color: white;
+    
+}
+
+#heading{
+    text-align: center;
+    align-items: center;
+   
+    
+    
+}
+.subheading{
+    align-items: center;
+    padding: 5% ;
+    text-align: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+#smenu{
+   background-color:rgb(190, 71, 28);
+   height: 56vh;
+}
+#heading h1{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+}
+.subheading h3{
+    font-family: "Anton SC", sans-serif;
+font-size: 50px;
+}
+#ssoup,#ssteak,#sdrink{
+    background-color:rgb(190, 71, 28);
+    height: 140vh;
+}
+
+#soup,#steak,#drink{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+ 
+}
+#soup h1{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 200px;
+}
+.soup{
+    display: flex;
+    justify-content: space-between;
+    background-color:wheat;
+    margin: 5% 10%;
+    height: 100px;
+    color: black;}
+
+/* .soup h2{
+    padding-left: 5%;
+    padding-top: 3%;
+} */
+/* .soup p{
+    padding-left: 5%;
+} */
+.soup:hover{
+    color:rgb(190, 71, 28);
+    ;
+    background-color: black;
+    
+}
+.price{
+    padding-top : 3%;
+    padding-right: 5%;
+}
+#steak h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+  }
+  /* .steak h2{
+    padding-left: 5%;
+    padding-top: 3%;
+} */
+
+  /* .steak p{
+    padding-left: 5%;
+} */
+
+.steak{
+    display: flex;
+    justify-content: space-between;
+    background-color:wheat;
+    margin: 5% 10%;
+    height: 100px;
+    color: black;
+}
+.steak:hover{
+    color:rgb(190, 71, 28);
+    ;
+    background-color: black;
+}
+#drink h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+}
+
+.drink{
+    display: flex;
+    justify-content: space-between;
+    background-color:wheat;
+    margin: 5% 10%;
+    height: 100px;
+    color: black;
+}
+.name{
+
+    /* padding-left: 5%;
+    padding-top: 3%; */
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+  
+}
+
+ 
+.drink:hover{
+    color:rgb(190, 71, 28);
+    ;
+    background-color: black;
+}
+
+
+
+
+#sgallery{
+    background-color:rgb(190, 71, 28);
+    height:150vh;
+}
+#gheading{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+}
+#gallery{
+    /* border: 1px solid black; */
+    width: 1220px;
+    height: 110vh;
+    margin-left: 130px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    row-gap: 5vh;
+    padding: 2%;
+}
+.gallery{
+    border: 1px solid black;
+    width: 600px;
+    height: 50vh;
+}
+.gimage:hover{
+    border: 3px solid black;
+}
+.gimage{
+    width: 600px;
+    height: 50vh;
+    border: 3px solid wheat;
+   /* transition: scale 0.5s,right 0.5s; */
+}
+/* .gimage:hover .gimage{
+    scale: 1.1;
+    right: 5px;
+} */
+ #info{
+    background-color: black;
+    height: 40vh;
+ }
+ footer{
+padding: 5%;
+padding-top: 5%;
+/* height: 8vh; */
+
+color: white;
+ }
+footer p{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.up{
+    background-image: linear-gradient( to bottom right,yellow,rgb(255, 136, 0));
+    float: right;
+    margin: 13px 50px 70px 0;
+}
+.up:hover i{
+    color: white;
+}
+#icon{
+    text-align: center;
+    margin-top: 30px;
+}
+#icon i{
+    scale: 2;
+    margin: 6px 15px;
+}
+  #icon  a:hover {
+color: rgb(190, 71, 28);
+    cursor: pointer;
+}
+#icon a{
+    color: #fafafa;
+}
